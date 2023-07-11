@@ -1,77 +1,24 @@
-{% extends "sightsonbikes/layout.html" %}
-{% block title %}
-    Sightsonbikes
-{% endblock %}
-{% block body %}
-<body>
-  <header class="top-header">
-      <div class="title">
-        <span id="g">Sights </span>
-        <span id="w">on </span>
-        <span id="r">Bikes</span>
-      </div>
-      <nav>
-        <div class="container topnav" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-          <!-- Navigation links (hidden by default) -->
-          <div id="myLinks">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-          </div>
-          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>       
-      </nav>
-  </header>
-  <main>
-    <section class="section">
-      <h2>20+ Most-See Sights in</h2>
-      <span id="g">C</span><span id="w">D</span><span id="w">M</span><span id="r">X</span>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" d-flex justify-content-center>
-            <img src="static/sightsonbikes/pictures/1.jpg" class="d-block" alt="Ruta en bicicleta 1" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="static/sightsonbikes/pictures/2.jpg" class="d-block" alt="Ruta en bicicleta 2" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="static/sightsonbikes/pictures/3.jpg" class="d-block" alt="Ruta en bicicleta 3" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="static/sightsonbikes/pictures/4.jpg" class="d-block" alt="Ruta en bicicleta 3" height="600px">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Siguiente</span>
-        </a>
-      </div>
-      <p>Join our bike tour and discover the most beautiful corners of the city. Pedal through parks, historic monuments, and charming streets.</p>
-    </section>
-    <!-- Resto del contenido -->
-  </main>
-</body>
-<footer>
-  <p>&copy; 2023 Albertours. All rights reserved.</p>
-</footer>
+<!doctype html>
+<html>
 
-<!-- Scripts de Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-{% endblock %}
+<head>
+  <meta charset="UTF-8">
+  <title>Sights on Bikes</title>
+  <link rel="stylesheet" href="static/sightsonbikes/style.css">
+  <script src="static/sightsonbikes/script.js"></script>
+</head>
+
+<body style="background-color: white;">
+
+  <h3>To Start: Drag the bicycle to the meeting point</h3>
+
+  <img src="/static/sightsonbikes/pictures/flag.png" id="flag" class="droppable">
+  <img src="/static/sightsonbikes/pictures/bike.png" id="bike">
+  <br>
+  <center>
+    <a href="home" class="button">Skip</a>
+  </center>
+
+</body>
+</html>
+

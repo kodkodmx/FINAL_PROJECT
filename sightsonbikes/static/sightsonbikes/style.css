@@ -1,54 +1,98 @@
+#flag {
+  cursor: pointer;
+  margin-bottom: 30%;
+  margin-left: 46%;
+  width: 150px;
+}
+
+#bike {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+}
+   
+@font-face {
+    font-family: 'Myriad Web Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Web Pro'), url('./fonts/Myriad Web Pro.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Web Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Web Pro'), url('./fonts/myriad-web-pro.woff') format('woff');
+}
+@font-face {
+    font-family: 'MyriadWebPro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MyriadWebPro-Bold'), url('./fonts/myriadwebpro-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'MyriadWebPro-CondensedItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MyriadWebPro-CondensedItalic'), url('./fonts/myriadwebpro-condenseditalic.woff') format('woff');
+}
+*{
+    font-family: 'MyriadWebPro-Bold';
+}
+.relative{
+    position: relative;
+}
 .top-header{
-    background-image: url("../sightsonbikes/pictures/header.jpg");
+    background-image: url("/static/sightsonbikes/pictures/header.jpg");
     width: 100%;
     background-size: cover;
-    height: 210px;;   
+    height: 210px;
+    position: relative;  
 }
-.title { 
-	font-family: sans-serif; 
+.logo{
+    position: absolute;
+    top: -32px;
+    right: 0;
+}
+.title {
     text-align: center;
-} 
-
-nav	{
-    color: white;
-    text-align: top;
 }
 body {
-    background-color: black;
+    background-color: #E4007C;
 }
 
 main {
     padding: 20px;
-    background-color: black;
+    background-color: #E4007C;
 }
 .section {
     margin-bottom: 10px;
     text-align: center;
-    background-color: black;
+    background-color: #E4007C;
 }
-h2 {
-    color: green;
-    margin-top: 0;
+.rojo{
+    color: #D22630;
+}
+.rosa{
+    color: #D60078;
+}
+.amarillo{
+    color: #f2a900;
+}
+.morado{
+    color: #a51890;
+}
+.verde{
+    color: #84bd00;
+}
+.azul{
+    color: #00A3AD;
 }
 
-#g{
-    color: green;
-    font-size: 30px;
-}
-#w{
-    color: white;
-    font-size: 30px;
-}
-#r{
-    color: red;
-    font-size: 30px;
-}
 p {
     line-height: 1.4;
-    color: red;
 }
 footer {
-    background-color: black;
+    background-color: #E4007C;
     color: white;
     padding: 10px;
     text-align: center;
@@ -60,11 +104,10 @@ footer {
 }
 
 .container {
-    display: inline-block;
+    display: block;
     cursor: pointer;
     position: absolute;
-    top: 0px;
-    right: 210px;
+    left: 0%;
 }
 
 .bar1, .bar2, .bar3 {
@@ -84,7 +127,10 @@ transform: translate(0, 11px) rotate(-45deg);
 .change .bar3 {
 transform: translate(0, -11px) rotate(45deg);
 }
-
+.topnav{
+    width: 65px;
+    height: 40px;
+}
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
 display: none;
@@ -92,18 +138,34 @@ display: none;
 
 /* Style navigation menu links */
 .topnav a {
-color: red;
+color: #E4007C;
 text-decoration: none;
-font-size: 17px;
+font-size: 30px;
 display: block;
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-color: green;
+color: #a51890;
 }
 
 /* Style the active link (or home/logo) */
 .active {
 color: white;
+}
+.transition {
+    font-size: 60px;
+}
+.transition:hover{
+   font-size: 75px;
+}
+.space{
+    height: 85px;
+    top: auto;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    text-align: center;
 }
