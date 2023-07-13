@@ -53,6 +53,7 @@
     right: 0%;
 }
 .title {
+    font-size: 40px;
     text-align: center;
 }
 body {
@@ -120,8 +121,8 @@ footer {
     transform: translate(0, -11px) rotate(45deg);
 }
 .topnav{
-    width: 65px;
-    height: 40px;
+    width: 0px;
+    height: 33px;
 }
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
@@ -131,7 +132,7 @@ footer {
 .topnav a {
     color: #D60078;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 21px;
     display: block;
 }
 /* Add a grey background color on mouse-over */
@@ -142,14 +143,9 @@ footer {
 .active {
     color: white;
 }
-.transition {
-    font-size: 40px;
-}
-.transition:hover{
-   font-size: 75px;
-}
-.space{
-    height: 54px;
+#hamburger{
+    width: 50px;
+    height: 35px;
 }
 h1{
     font-size: 60px;
@@ -201,7 +197,7 @@ h1{
     height: 80px;
     position: absolute;
     top: 153px;
-    left: 85%;
+    left: 90%;
 }
 #whitebike2{
     background-image: url("/static/sightsonbikes/pictures/bicicletablanca.png");
@@ -210,7 +206,7 @@ h1{
     height: 80px;
     position: absolute;
     top: 153px;
-    left: 15%;
+    left: 18.5%;
 }
 .slider-title{
     font-size: 20px;
@@ -225,6 +221,11 @@ h1{
 }
   
 #bike {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+#bike2 {
     cursor: pointer;
     width: 150px;
     height: 150px;

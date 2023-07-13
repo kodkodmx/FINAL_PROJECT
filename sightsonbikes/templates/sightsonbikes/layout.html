@@ -19,7 +19,7 @@
         <div class="logo">
           <img src="/static/sightsonbikes/pictures/mexico.png" alt="Logo" class="logo">
         </div>
-        <div class="topnav container" onclick="myFunction(this)">
+        <div class="topnav container" onclick="myFunction(this)" id="hamburger">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
@@ -33,14 +33,14 @@
             <i class="fa fa-bars"></i>
         </div>       
       </nav>
-      <div class="title transition space">
+      <div class="title">
         <span class="rojo">Sights </span>
         <span class="rojo">on </span>
         <span class="rojo">Bikes</span>
       </div>
       <br>
       <br>
-      <div class="title transition space">
+      <div class="title">
         <span class="rosa">20+</span>
         <span class="amarillo">Most</span>
         <span class="amarillo">-</span>
@@ -60,7 +60,7 @@
           <span class="slider-title line morado" id="route">The Route</span>
           <span class="slider-title line verde" id="include">What´s included</span>
           <span class="slider-title line azul" id="fin">Finish Line</span>
-          <div class="thumb" id="bike"></div>
+          <div class="thumb" id="bike2"></div>
         </div>
       </nav>
       {% block body %}
