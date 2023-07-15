@@ -1,4 +1,4 @@
-function myFunction(x) {
+function myFunction(x) { // hamburger menu
     x.classList.toggle("change");
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -7,6 +7,8 @@ function myFunction(x) {
       x.style.display = "block";
     }
 };
+
+// bike 1
 
 document.addEventListener('DOMContentLoaded', function() {
   let currentDroppable = null;
@@ -78,11 +80,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentDroppable = null;
   const bike = document.getElementById('bike2');
   let initialY = bike.offsetTop;
-  let minX = bike.offsetLeft; // Límite mínimo en el plano "x"
-  let maxX = 0; // Límite máximo en el plano "x"
+  let minX = bike.offsetLeft-50; // Plane "x" minimum limit
+  let maxX = 0; //Plane "x" maximum limit
 
-  // Calcular maxX como el 89% del ancho de la pantalla
-  maxX = Math.floor(0.89 * window.innerWidth);
+  //  Set maxX as 0.87 of the window width
+  maxX = Math.floor(0.87 * window.innerWidth);
 
   bike.addEventListener('mousedown', function(event) {
     let shiftX = event.clientX - bike.getBoundingClientRect().left;
@@ -97,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let newX = pageX - shiftX;
       let newY = initialY;
 
-      // Aplicar límites en el plano "x"
+      // Plane "x" limits
       if (newX < minX) {
         newX = minX;
       } else if (newX > maxX) {
@@ -118,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!elemBelow) return;
 
       let droppableBelow = elemBelow.closest('.droppable');
-      if (currentDroppable !== droppableBelow) {
+      if (currentDroppable != droppableBelow) {
         if (currentDroppable) {
           leaveDroppable(currentDroppable);
         }
@@ -133,6 +135,10 @@ document.addEventListener('DOMContentLoaded', function() {
       document.removeEventListener('mousemove', onMouseMove);
       document.removeEventListener('mouseup', onMouseUp);
       bike.onmouseup = null;
+
+      if (currentDroppable) {
+        dropOnDroppable(currentDroppable);
+      }
     }
 
     document.addEventListener('mousemove', onMouseMove);
@@ -141,7 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function enterDroppable(elem) {
     elem.style.background = '#D60078';
-    window.location.href = 'home';
   }
 
   function leaveDroppable(elem) {
@@ -151,4 +156,22 @@ document.addEventListener('DOMContentLoaded', function() {
   bike.ondragstart = function() {
     return false;
   };
+  function dropOnDroppable(elem) {
+    if (elem.id == 'meet') {
+      console.log('meet');
+      window.location.href = 'home';
+    } else if (elem.id == 'host') {
+      console.log('host');
+      window.location.href = 'home';
+    } else if (elem.id == 'route') {
+      console.log('route');
+      window.location.href = 'home';
+    } else if (elem.id == 'include') {
+      console.log('include');
+      window.location.href = 'home';
+    } else if (elem.id == 'fin') {
+      console.log('fin');
+      window.location.href = 'home';
+    }
+  }  
 });
