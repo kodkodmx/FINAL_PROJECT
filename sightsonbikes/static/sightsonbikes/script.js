@@ -1,3 +1,4 @@
+let preCol = null;
 function myFunction(x) { // hamburger menu
     x.classList.toggle("change");
     var x = document.getElementById("myLinks");
@@ -80,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentDroppable = null;
   const bike = document.getElementById('bike2');
   let initialY = bike.offsetTop;
-  let minX = bike.offsetLeft-50; // Plane "x" minimum limit
+  let minX = bike.offsetLeft-70; // Plane "x" minimum limit
   let maxX = 0; //Plane "x" maximum limit
 
   //  Set maxX as 0.87 of the window width
@@ -146,10 +147,17 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function enterDroppable(elem) {
-    elem.style.background = '#D60078';
+    elem.style.zIndex = '1';
+    elem.style.scale = '3.5';
+    preCol = elem.style.color;
+    elem.style.color = '#f2a900';
+    elem.style.background = '#a51890';
   }
 
   function leaveDroppable(elem) {
+    elem.style.zIndex = '';
+    elem.style.color = preCol;
+    elem.style.scale = '1';
     elem.style.background = '';
   }
 
