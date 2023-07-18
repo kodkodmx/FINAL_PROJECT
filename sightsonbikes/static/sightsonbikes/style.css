@@ -167,7 +167,7 @@ h1{
 }
 #meet{
     margin-left: 0%;
-    line-height: 18pt;
+    left: -10px;
 }
 #host{
     margin-left: 23%;
@@ -179,9 +179,7 @@ h1{
     margin-left: 69%;
 }
 #fin{
-    margin-left: 94.5%;
-    line-height: 18pt;
-    padding-top: 18px;
+    margin-left: 95%;
 }
 .line{
     text-align: center;
@@ -199,7 +197,7 @@ h1{
     height: 80px;
     position: absolute;
     top: 153px;
-    left: 90%;
+    left: 91%;
 }
 #whitebike2{
     background-image: url("/static/sightsonbikes/pictures/bicicletablanca.png");
@@ -208,7 +206,7 @@ h1{
     height: 80px;
     position: absolute;
     top: 153px;
-    left: 18.5%;
+    left: 19%;
 }
 .slider-title{
     font-size: 20px;
@@ -267,7 +265,5 @@ footer{
     display: none;
 }
 main{
-    padding: 10%;
     height: 440px;
 }
-

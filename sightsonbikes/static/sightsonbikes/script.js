@@ -136,10 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {
       document.removeEventListener('mousemove', onMouseMove);
       document.removeEventListener('mouseup', onMouseUp);
       bike.onmouseup = null;
-
-      if (currentDroppable) {
-        dropOnDroppable(currentDroppable);
-      }
     }
 
     document.addEventListener('mousemove', onMouseMove);
@@ -147,14 +143,50 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function enterDroppable(elem) {
+    if (elem.id == 'fin') {
+    elem.style.marginLeft = '90.38%';
+    }
+    else if (elem.id == 'meet') {
+      elem.style.marginLeft = '3%';
+      }
     elem.style.zIndex = '1';
     elem.style.scale = '3.5';
     preCol = elem.style.color;
     elem.style.color = '#f2a900';
     elem.style.background = '#a51890';
-  }
-
+    if (elem.id == 'meet') {
+      window.location.href = 'home';
+    } else if (elem.id == 'host') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'block';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('includediv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (elem.id == 'route') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'block';
+      document.getElementById('includediv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (elem.id == 'include') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('includediv').style.display = 'block';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (elem.id == 'fin') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('includediv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'block';
+    }
+  };
+  
   function leaveDroppable(elem) {
+    if (elem.id == 'fin') {
+      elem.style.marginLeft = '95%';
+    }
     elem.style.zIndex = '';
     elem.style.color = preCol;
     elem.style.scale = '1';
@@ -164,38 +196,4 @@ document.addEventListener('DOMContentLoaded', function() {
   bike.ondragstart = function() {
     return false;
   };
-  function dropOnDroppable(elem) {
-    if (elem.id == 'meet') {
-      console.log('meet');
-      window.location.href = 'home';
-    } else if (elem.id == 'host') {
-      console.log('host');
-      document.getElementById('meetdiv').style.display = 'none';
-      document.getElementById('hostdiv').style.display = 'block';
-      document.getElementById('routediv').style.display = 'none';
-      document.getElementById('includediv').style.display = 'none';
-      document.getElementById('findiv').style.display = 'none';
-    } else if (elem.id == 'route') {
-      console.log('route');
-      document.getElementById('meetdiv').style.display = 'none';
-      document.getElementById('hostdiv').style.display = 'none';
-      document.getElementById('routediv').style.display = 'block';
-      document.getElementById('includediv').style.display = 'none';
-      document.getElementById('findiv').style.display = 'none';
-    } else if (elem.id == 'include') {
-      console.log('include');
-      document.getElementById('meetdiv').style.display = 'none';
-      document.getElementById('hostdiv').style.display = 'none';
-      document.getElementById('routediv').style.display = 'none';
-      document.getElementById('includediv').style.display = 'block';
-      document.getElementById('findiv').style.display = 'none';
-    } else if (elem.id == 'fin') {
-      console.log('fin');
-      document.getElementById('meetdiv').style.display = 'none';
-      document.getElementById('hostdiv').style.display = 'none';
-      document.getElementById('routediv').style.display = 'none';
-      document.getElementById('includediv').style.display = 'none';
-      document.getElementById('findiv').style.display = 'block';
-    }
-  }  
 });
