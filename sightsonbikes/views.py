@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import *
+import random
 
 # Create your views here.
 def index(request):
@@ -13,10 +14,9 @@ def home(request):
     });
 
 def gallery(request):
-    return render(request, "sightsonbikes/home.html", {
-        "gallery": 1,
-        "reviews": 0,
-        "about": 0
+    pictures = random.sample(range(40), 40);
+    return render(request, 'sightsonbikes/gallery.html', {
+        'pictures': pictures
     });
 
 def reviews(request):

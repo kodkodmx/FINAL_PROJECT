@@ -65,7 +65,6 @@ main {
     background-color: #D60078;
 }
 .section {
-    margin-bottom: 10px;
     text-align: center;
     background-color: #D60078;
 }
@@ -160,7 +159,7 @@ h1{
     height: 120px;
     border-radius: 3px;
     position: relative;
-    left: 50px;
+    left: 30px;
     top: -35px;
     background-image: url("/static/sightsonbikes/pictures/bicicleta.png");
     background-size: cover;
@@ -241,13 +240,34 @@ h1{
 #bikelane{
 
 }
-/* home.html */
+footer{
+    position: relative;
+    height: 37px;
+}
+/* gallery.html */
 .carousel-inner .carousel-item img {
 
     margin: auto;
     
 }
-.{
+/* home.html */
+#meetdiv{
     display: block;
+}
+#hostdiv{
+    display: none;
+}
+#routediv{
+    display: none;
+}
+#includediv{
+    display: none;
+}
+#findiv{
+    display: none;
+}
+main{
+    padding: 10%;
+    height: 440px;
 }
 
