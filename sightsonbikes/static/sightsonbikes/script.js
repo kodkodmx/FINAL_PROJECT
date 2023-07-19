@@ -144,13 +144,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function enterDroppable(elem) {
     if (elem.id == 'fin') {
-    elem.style.marginLeft = '90.38%';
+    elem.style.marginLeft = '94.5%';
     }
     else if (elem.id == 'meet') {
-      elem.style.marginLeft = '3%';
+      elem.style.marginLeft = '1%';
       }
     elem.style.zIndex = '1';
-    elem.style.scale = '3.5';
+    elem.style.scale = '1.5';
     preCol = elem.style.color;
     elem.style.color = '#f2a900';
     elem.style.background = '#a51890';

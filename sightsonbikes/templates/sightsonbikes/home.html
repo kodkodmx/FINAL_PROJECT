@@ -3,13 +3,42 @@
     Sightsonbikes
 {% endblock %}
 {% block body %}
+<nav id="bikelane">
+  <div id="slider" class="slider">
+    <div id="whitebike1"></div>
+    <div id="whitebike2"></div>
+    <span class="slider-title line rojo droppable" id="meet">Meeting Point</span>
+    <span class="slider-title line amarillo droppable" id="host">Your Host</span>
+    <span class="slider-title line morado droppable" id="route">The Route</span>
+    <span class="slider-title line verde droppable" id="include">What´s included</span>
+    <span class="slider-title line azul droppable" id="fin">Finish Line</span>
+    <div class="thumb" id="bike2"></div>
+  </div>
+</nav>
 <main>
-  <center>
-    <p id="meetdiv">Meet</p>
-    <p id="hostdiv">Host</p>
-    <p id="routediv">Route</p>
-    <p id="includediv">Included</p>
-    <p id="findiv">Finish</p>
-  </center>
+    <div id="meetdiv">
+      <h2 class="azul">Av México 8, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX</h2>
+      <img src="/static/sightsonbikes/pictures/7.jpg" height="225px" width="465" id="pic7">
+      <br>
+      <img src="/static/sightsonbikes/pictures/40.jpg" height="225px" width="465" id="pic40">
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.951513985166!2d-99.1685035!3d19.4145008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2zQXYgTcOpeGljbyA4LCBIaXDDs2Ryb21vLCBDdWF1aHTDqW1vYywgMDYxMDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVg!5e0!3m2!1sen!2smx!4v1689716623378!5m2!1sen!2smx" width="580" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="hostdiv">
+      <h2 class="amarillo">Alberto Haboba</h2>
+      <img src="/static/sightsonbikes/pictures/host.jpg" height="300px" id="pichost">
+      <img src="/static/sightsonbikes/pictures/host2.jpg" height="300px" id="pichost2">
+      <img src="/static/sightsonbikes/pictures/host3.jpg" height="300px" id="pichost3">
+      <aside id="texthost" class="amarillo">I'm a Mexico City native who has traveled all over the world. Ten years ago, I was forced to sell my car and took up cycling to get around the city. Now I realize that was the best thing that could have ever happened to me. Traversing this amazing city on two wheels allows you to discover new things on a daily basis, with a completely different point of view. I'd like to share my experiences with you, and help you understand what Mexico City is really about.</aside>
+      <ul id="lenguage">
+        <lh class="amarillo">Languages:</lh>
+        <li class="amarillo"><i class="flag flag-united-states"></i>English</li>
+        <li class="amarillo"><i class="flag flag-spain"></i>Spanish</li>
+        <li class="amarillo"><i class="flag flag-israel"></i>Hebrew</li>
+      </ul>
+    </div>
+    <div id="routediv">Route</div>
+    <div id="includediv">Included</div>
+    <div id="findiv">Finish</div>
 </main>
 {% endblock %}

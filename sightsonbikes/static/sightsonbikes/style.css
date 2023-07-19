@@ -131,7 +131,7 @@ footer {
 .topnav a {
     color: #D60078;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 18px;
     display: block;
 }
 /* Add a grey background color on mouse-over */
@@ -251,9 +251,13 @@ footer{
 /* home.html */
 #meetdiv{
     display: block;
+    text-align: center;
+    height: 400px;
 }
 #hostdiv{
     display: none;
+    text-align: center;
+    height: 400px;
 }
 #routediv{
     display: none;
@@ -264,6 +268,74 @@ footer{
 #findiv{
     display: none;
 }
-main{
-    height: 440px;
+#gallery{
+    height: 526px;
+}
+#pic7{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+}
+#pic40{
+    position: absolute;
+    top: 55%;
+    right: 0%;    
+}
+#texthost{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 19%;
+    text-align: justify;
+}
+#texthost:hover{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 19%;
+    text-align: justify;
+    scale: 1.23;
+}
+#pichost{
+    position: absolute;
+    top: 45%;
+    left: 27%;
+}
+#pichost:hover{
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    scale: 2;
+    z-index: 1;
+}
+#pichost2{
+    position: absolute;
+    top: 45%;
+    left: 44%;
+}
+#pichost2:hover{
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    scale: 2;
+    z-index: 1;
+}
+#pichost3{
+    position: absolute;
+    top: 45%;
+    left: 56.4%;
+    width: 16%;
+}
+#pichost3:hover{
+    position: absolute;
+    top: 45%;
+    left: 56.4%;
+    width: 16%;
+    scale: 2;
+    z-index: 1;
+}
+#lenguage{
+    position: absolute;
+    top: 60%;
+    left: 80%;
 }

@@ -14,24 +14,16 @@ def home(request):
     });
 
 def gallery(request):
-    pictures = random.sample(range(40), 40);
+    pictures = random.sample(range(1, 41), 40);
     return render(request, 'sightsonbikes/gallery.html', {
         'pictures': pictures
     });
 
 def reviews(request):
-    return render(request, "sightsonbikes/home.html", {
-        "gallery": 0,
-        "reviews": 1,
-        "about": 0
-    });
+    return render(request, "sightsonbikes/reviews.html");
 
 def about(request):
-    return render(request, "sightsonbikes/home.html", {
-        "gallery": 0,
-        "reviews": 0,
-        "about": 1
-    });
+    return render(request, "sightsonbikes/about.html");
 
 
 

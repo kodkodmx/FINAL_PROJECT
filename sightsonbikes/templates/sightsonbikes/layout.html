@@ -13,6 +13,14 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- MDB -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+      <!-- Font Awesome -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+      <!-- MDB -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
     </head>
     <header class="top-header">
       <nav>
@@ -25,6 +33,7 @@
           <div class="bar3"></div>
           <!-- Navigation links (hidden by default) -->
           <div id="myLinks">
+            <a href="home">Home</a>
             <a href="gallery">Gallery</a>
             <a href="reviews">Reviews</a>
             <a href="about">About</a>
@@ -51,18 +60,6 @@
       </div>
     </header>
     <body>
-      <nav id="bikelane">
-        <div id="slider" class="slider">
-          <div id="whitebike1"></div>
-          <div id="whitebike2"></div>
-          <span class="slider-title line rojo droppable" id="meet">Meeting Point</span>
-          <span class="slider-title line amarillo droppable" id="host">Your Host</span>
-          <span class="slider-title line morado droppable" id="route">The Route</span>
-          <span class="slider-title line verde droppable" id="include">What´s included</span>
-          <span class="slider-title line azul droppable" id="fin">Finish Line</span>
-          <div class="thumb" id="bike2"></div>
-        </div>
-      </nav>
       {% block body %}
       {% endblock %}
     </body>
