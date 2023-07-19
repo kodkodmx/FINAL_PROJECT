@@ -81,10 +81,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentDroppable = null;
   const bike = document.getElementById('bike2');
   let initialY = bike.offsetTop;
+  let initialX = bike.offsetLeft;
   let minX = bike.offsetLeft-50; // Plane "x" minimum limit
   let maxX = 0; //Plane "x" maximum limit
 
-  //  Set maxX as 0.87 of the window width
+  //  Set maxX as 0.88 of the window width
   maxX = Math.floor(0.88 * window.innerWidth);
 
   bike.addEventListener('mousedown', function(event) {
