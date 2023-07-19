@@ -25,6 +25,9 @@ def reviews(request):
 def about(request):
     return render(request, "sightsonbikes/about.html");
 
+def test(request):
+    return render(request, "sightsonbikes/test.html");
+
 
 
 

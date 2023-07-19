@@ -114,6 +114,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function onMouseMove(event) {
       moveAt(event.pageX);
+      document.getElementById('arrow').style.display = 'none';
+
 
       bike.hidden = true;
       let elemBelow = document.elementFromPoint(event.clientX, event.clientY);
@@ -150,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
     else if (elem.id == 'meet') {
       elem.style.marginLeft = '1%';
       }
-    elem.style.zIndex = '1';
+    elem.style.zIndex = '100';
     elem.style.scale = '1.5';
     preCol = elem.style.color;
     elem.style.color = '#f2a900';
@@ -192,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.color = preCol;
     elem.style.scale = '1';
     elem.style.background = '';
-  }
+  };
 
   bike.ondragstart = function() {
     return false;
