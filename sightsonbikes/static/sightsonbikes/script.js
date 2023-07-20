@@ -200,6 +200,8 @@ document.addEventListener('DOMContentLoaded', function() {
     return false;
   };
 });
+
+// full screen
 function full() {
   window.location.href = 'full';
 }

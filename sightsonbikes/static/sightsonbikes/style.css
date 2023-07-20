@@ -59,11 +59,11 @@
 #twenty{
     margin-top: 2.9%;
 }
-body {
+#body {
     background-color: #D60078;
 }
 
-main {
+#main {
     padding: 20px;
     background-color: #D60078;
 }
@@ -406,18 +406,19 @@ lh{
 #findiv{
     display: none;
 }
-#button{
-    background-color: #00A3AD;
-}
 #gallery{
     height: 526px;
-    display: block;
 }
 #fullscreen{
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: black;
+}
+#button{
+    background-color: #00A3AD;
+    color: #f2a900;
+    font-size: 14px;
 }
 
     
