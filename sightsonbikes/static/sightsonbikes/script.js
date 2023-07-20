@@ -200,3 +200,9 @@ document.addEventListener('DOMContentLoaded', function() {
     return false;
   };
 });
+function full() {
+  window.location.href = 'full';
+}
+function normal() {
+  window.location.href = 'gallery';
+}
