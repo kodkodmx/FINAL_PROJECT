@@ -157,17 +157,6 @@ h1{
     margin: 3px;
     height: 80px;
 }
-.thumb {
-    width: 120px;
-    height: 120px;
-    border-radius: 3px;
-    position: relative;
-    left: 30px;
-    top: -35px;
-    background-image: url("/static/sightsonbikes/pictures/bicicleta.png");
-    background-size: cover;
-    cursor: pointer;
-}
 #meet{
     margin-left: 0%;
     left: -10px;
@@ -255,7 +244,13 @@ h1{
 #bike2 {
     cursor: pointer;
     width: 150px;
-    height: 150px;
+    height: 90px;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    background-image: url("/static/sightsonbikes/pictures/bicicleta.png");
+    background-size: cover;
+    background-position: 0%;
 }
 .animation {
     position: relative;
@@ -419,6 +414,15 @@ lh{
     background-color: #00A3AD;
     color: #f2a900;
     font-size: 14px;
+}
+#about{
+    color: white;
+    font-size: 18px;
+}
+#cs50{
+    position: absolute;
+    top: 30%;
+    left: 45%;
 }
 
     
