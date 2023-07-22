@@ -371,7 +371,7 @@ footer{
     left: 26%;
 }	
 lh{
-    font-size: 20px;
+    font-size: 22px;
 }
 #part1{
     position: absolute;
@@ -396,7 +396,38 @@ lh{
     left: 65%;
 }
 #includediv{
+    text-align: left;
     display: none;
+    height: 400px;
+}
+#doing{
+    text-align: center;
+    top: 35%;
+    left: 38%;
+}
+.biggest{
+    font-size: 20px;
+    text-align: justify;
+}
+#do{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+#included{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+}
+#transport{
+    position: absolute;
+    top: 76%;
+    left: 43%;
+}
+#equip{
+    position: absolute;
+    top: 76%;
+    left: 86%;
 }
 #findiv{
     display: none;
@@ -416,13 +447,80 @@ lh{
     font-size: 14px;
 }
 #about{
-    color: white;
+    color: #84bd00;
     font-size: 18px;
 }
-#cs50{
+#cs50x{
+    position: absolute;
+    top: 37%;
+    left: 41%;
+}
+#cs50x:hover{
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 38%;
+    scale: 2.1;
+    z-index: 1000;
+}
+#cs50x2{
+    position: absolute;
+    top: 37%;
+    left: 66%;
+}
+#cs50x2:hover{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    scale: 2.1;
+    z-index: 1000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.waviy {
+    position: relative;
+    text-align: center;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.6));
+    font-size: 40px;
+}
+.waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color:#84bd00;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+#whatsapp{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 70px;
+}
+#instagram{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    font-size: 70px;
+}
+#facebook{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: 70px;
+}
+#email{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    font-size: 70px;
 }
 
     

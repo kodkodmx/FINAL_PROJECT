@@ -11,84 +11,112 @@
     <span class="slider-title line rojo droppable" id="meet">Meeting Point</span>
     <span class="slider-title line amarillo droppable" id="host">Your Host</span>
     <span class="slider-title line morado droppable" id="route">The Route</span>
-    <span class="slider-title line verde droppable" id="include">What´s included</span>
+    <span class="slider-title line verde droppable" id="include">What´s Included</span>
     <span class="slider-title line azul droppable" id="fin">Finish Line</span>
     <div id="bike2"></div>
   </div>
 </nav>
 <main id="main">
-    <div id="meetdiv">
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pin-map pin" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
-        <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
-      </svg>
-      <h2 class="azul">Meeting Point</h2>
-      <h2 class="verde">Av México 8, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX</h2>
-      <img src="/static/sightsonbikes/pictures/7.jpg" height="225px" width="465" id="pic7">
-      <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.951513985166!2d-99.1685035!3d19.4145008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2zQXYgTcOpeGljbyA4LCBIaXDDs2Ryb21vLCBDdWF1aHTDqW1vYywgMDYxMDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVg!5e0!3m2!1sen!2smx!4v1689716623378!5m2!1sen!2smx" width="580" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="meetmap"></iframe>
-      <br>
-      <img src="/static/sightsonbikes/pictures/40.jpg" height="225px" width="465" id="pic40">
+  <div id="meetdiv">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pin-map pin" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+      <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+    </svg>
+    <h2 class="azul">Meeting Point</h2>
+    <h2 class="verde">Av México 8, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX</h2>
+    <img src="/static/sightsonbikes/pictures/7.jpg" height="225px" width="465" id="pic7">
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.951513985166!2d-99.1685035!3d19.4145008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2zQXYgTcOpeGljbyA4LCBIaXDDs2Ryb21vLCBDdWF1aHTDqW1vYywgMDYxMDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVg!5e0!3m2!1sen!2smx!4v1689716623378!5m2!1sen!2smx" width="580" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="meetmap"></iframe>
+    <br>
+    <img src="/static/sightsonbikes/pictures/40.jpg" height="225px" width="465" id="pic40">
+  </div>
+  <div id="hostdiv">
+    <h2 class="azul">Alberto Haboba</h2>
+    <img src="/static/sightsonbikes/pictures/host.jpg" height="300px" id="pichost">
+    <img src="/static/sightsonbikes/pictures/host2.jpg" height="300px" id="pichost2">
+    <img src="/static/sightsonbikes/pictures/host3.jpg" height="300px" id="pichost3">
+    <aside id="texthost" class="amarillo">I'm a Mexico City native who has traveled all over the world. Ten years ago, I was forced to sell my car and took up cycling to get around the city. Now I realize that was the best thing that could have ever happened to me. Traversing this amazing city on two wheels allows you to discover new things on a daily basis, with a completely different point of view. I'd like to share my experiences with you, and help you understand what Mexico City is really about.</aside>
+    <ul id="lenguage">
+      <lh class="morado">Spoken Languages:</lh>
+      <li class="azul"><i class="flag flag-united-states"></i>English</li>
+      <li class="amarillo"><i class="flag flag-spain"></i>Spanish</li>
+      <li class="verde"><i class="flag flag-israel"></i>Hebrew</li>
+    </ul>
+  </div>
+  <div id="routediv">
+    <h2 class="azul" id="divided">The Route is 12 miles long and is divided in 2 parts:</h2>
+    <ul id="part1">
+      <lh class="azul">First Part:</lh>
+      <li class="verde">Meeting Point</li>
+      <li class="verde">Parque Mexico</li>
+      <li class="verde">Foro Lindbergh</li>
+      <li class="verde">Estela de Luz</li>
+      <li class="verde">Altar a la Patria</li>
+      <li class="verde">Castillo de Chapultepec</li>
+      <li class="verde">Museo de Antropologia</li>
+      <li class="verde">Diana la Cazadora</li>
+      <li class="verde">Angel de la Independencia</li>
+      <li class="verde">Senado de la Republica</li>
+      <li class="verde">Monumento a la Revolucion</li>
+      <li class="verde">Break time..</li>
+    </ul>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d15050.938084101519!2d-99.18011810404624!3d19.423873259655327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e1!4m5!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2sAv%20M%C3%A9xico%208!3m2!1d19.4145008!2d-99.1685035!4m5!1s0x85d1ff9e8858c6d5%3A0xa8b542b8223ca73d!2sForo%20Lindbergh!3m2!1d19.4117641!2d-99.16962919999999!4m5!1s0x85d1ff4efbd21347%3A0x2f3a8ca9ff30986c!2sEstela%20de%20Luz!3m2!1d19.4229704!2d-99.1756764!4m5!1s0x85d1ff50256ff339%3A0x4cc666f906981ad2!2sAltar%20a%20la%20Patria!3m2!1d19.4214533!2d-99.1794151!4m5!1s0x85d1fecd47ed8f23%3A0xa6e0008524818b32!2sChapultepec%20Castle!3m2!1d19.4204397!2d-99.181935!4m5!1s0x85d1ff541cfada4d%3A0x7f4c3acc44cf2b7!2sTlaloc!3m2!1d19.4251167!2d-99.185148!4m5!1s0x85d1ff8385725c39%3A0x28058c50190cf5be!2sDiana%20the%20Huntress%20Fountain!3m2!1d19.4251872!2d-99.1716246!4m5!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sThe%20Angel%20of%20Independence!3m2!1d19.427024499999998!2d-99.16766469999999!4m5!1s0x86bb88624f9da3ad%3A0x14ac4d62ed85ec1f!2sSenate%20of%20the%20Republic!3m2!1d19.432513!2d-99.1576819!4m5!1s0x85d1f8d24522071f%3A0x20fdc6dd3dcc0c20!2sMonumento%20a%20la%20Revoluci%C3%B3n%2C%20Plaza%20de%20la%20Rep%C3%BAblica%2C%20Colonia%20Tabacalera%2C%20Cuauht%C3%A9moc%2C%20CDMX!3m2!1d19.4362086!2d-99.1546298!5e0!3m2!1sen!2smx!4v1689801273621!5m2!1sen!2smx" width="500" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map1"></iframe>
+    <ul id="part2">
+      <lh class="azul">Second Part:</lh>
+      <li class="verde">Monumento a los 43</li>
+      <li class="verde">Hemiciclo a Juarez</li>
+      <li class="verde">Palacio de Bellas Artes</li>
+      <li class="verde">Casa de los Azulejos</li>
+      <li class="verde">Palacio Postal</li>
+      <li class="verde">Museo Nacional del Arte</li>
+      <li class="verde">Camara de Diputados</li>
+      <li class="verde">Teatro de la Ciudad</li>
+      <li class="verde">Templo Mayor</li>
+      <li class="verde">Zocalo</li>
+      <li class="verde">Catedral Metropolitana</li>
+      <li class="verde">Palacio Nacional</li>
+      <li class="verde">La Cibeles</li>
+      <li class="verde">Finish Line</li>
+    </ul>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d15050.721214878922!2d-99.15939725404517!3d19.42621435962588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e1!4m5!1s0x85d1f8d24522071f%3A0x20fdc6dd3dcc0c20!2sMonument%20to%20the%20Revolution!3m2!1d19.4362086!2d-99.1546298!4m5!1s0x85d1f92af284792b%3A0xde32a0a0c4a5f966!2sHemiciclo%20a%20Juarez!3m2!1d19.43504!2d-99.1440806!4m5!1s0x85d1fed4d77c2bd9%3A0x65401fd3d24f8470!2sBarrio%20Chino%2C%20Centro%2C%20Mexico%20City%2C%20CDMX!3m2!1d19.4320229!2d-99.142675!4m5!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2sPalacio%20de%20Bellas%20Artes!3m2!1d19.4352!2d-99.1412!4m5!1s0x85d1f92b5f1a452f%3A0x8b1879ee6f42c37!2sThe%20House%20of%20Tiles!3m2!1d19.4343286!2d-99.140163!4m5!1s0x85d1f92b7c6b4877%3A0x4b7dfa3e33326fa7!2sPalacio%20Postal!3m2!1d19.435558999999998!2d-99.1402372!4m5!1s0x85d1f9805cbc55cf%3A0x704914725eddc40a!2sC%C3%A1mara%20de%20diputados%20cdmx!3m2!1d19.436663499999998!2d-99.13775509999999!4m5!1s0x85d1f92d7281d1dd%3A0x8c90beca651436b0!2sTemplo%20Mayor%20Museum!3m2!1d19.434603799999998!2d-99.13188099999999!4m5!1s0x85d1fecd4864aaff%3A0x4cff0c5cb291360c!2zWsOzY2Fsbw!3m2!1d19.4326018!2d-99.1332049!4m5!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2sAvenida%20M%C3%A9xico%208%2C%20Hip%C3%B3dromo%2C%20Mexico%20City%2C%20CDMX!3m2!1d19.4145008!2d-99.1685035!5e0!3m2!1sen!2smx!4v1689801576131!5m2!1sen!2smx" width="500" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map2"></iframe>
+  </div>
+  <div id="includediv">
+    <h2 class="azul" id="doing">What Will We Be Doing:</h2>
+    <div id="do"">
+      <h2 class="azul">What you'll do:</h2>
+      <p class="amarillo biggest">Mexico City is one of the biggest cities in the world. What better way to get to know this vast megalopolis than on two wheels? In this experience, we will see how the city has grown through the ages, and how it has adapted to meet the needs of its ever-growing population. This experience will focus on the most iconic landmarks that reflect the development of the capital since it was founded until the present day.</p>
+        <h6 class="verde">Other things to note:</h6>
+      <p class="amarillo">The route is approximately 20 km (12 miles) and takes four hours to complete. It is recommended that you are in good physical shape though it is not essential as we will be going at a relaxed pace.</p>
+    <br>
     </div>
-    <div id="hostdiv">
-      <h2 class="azul">Alberto Haboba</h2>
-      <img src="/static/sightsonbikes/pictures/host.jpg" height="300px" id="pichost">
-      <img src="/static/sightsonbikes/pictures/host2.jpg" height="300px" id="pichost2">
-      <img src="/static/sightsonbikes/pictures/host3.jpg" height="300px" id="pichost3">
-      <aside id="texthost" class="amarillo">I'm a Mexico City native who has traveled all over the world. Ten years ago, I was forced to sell my car and took up cycling to get around the city. Now I realize that was the best thing that could have ever happened to me. Traversing this amazing city on two wheels allows you to discover new things on a daily basis, with a completely different point of view. I'd like to share my experiences with you, and help you understand what Mexico City is really about.</aside>
-      <ul id="lenguage">
-        <lh class="morado">Spoken Languages:</lh>
-        <li class="azul"><i class="flag flag-united-states"></i>English</li>
-        <li class="amarillo"><i class="flag flag-spain"></i>Spanish</li>
-        <li class="verde"><i class="flag flag-israel"></i>Hebrew</li>
-      </ul>
+    <div id="included">
+      <h2 class="azul">What's included:</h2>
+    <ul>
+      <lh class="verde"><i class="bi-cup-straw"></i>Food & Drinks:</i></lh>
+        <li class="amarillo biggest">Breakfast including coffee, juice, and a main dish.</li>
+        <span class="verde">or</span>
+        <li class="amarillo biggest">Dinner including a main dish and a drink.</li>
+    </ul>
     </div>
-    <div id="routediv">
-      <h2 class="azul" id="divided">The Route is 12 miles long and is divided in 2 parts:</h2>
-      <ul id="part1">
-        <lh class="azul">First Part:</lh>
-        <li class="verde">Meeting Point</li>
-        <li class="verde">Parque Mexico</li>
-        <li class="verde">Foro Lindbergh</li>
-        <li class="verde">Estela de Luz</li>
-        <li class="verde">Altar a la Patria</li>
-        <li class="verde">Castillo de Chapultepec</li>
-        <li class="verde">Museo de Antropologia</li>
-        <li class="verde">Diana la Cazadora</li>
-        <li class="verde">Angel de la Independencia</li>
-        <li class="verde">Senado de la Republica</li>
-        <li class="verde">Monumento a la Revolucion</li>
-        <li class="verde">Break time..</li>
-      </ul>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d15050.938084101519!2d-99.18011810404624!3d19.423873259655327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e1!4m5!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2sAv%20M%C3%A9xico%208!3m2!1d19.4145008!2d-99.1685035!4m5!1s0x85d1ff9e8858c6d5%3A0xa8b542b8223ca73d!2sForo%20Lindbergh!3m2!1d19.4117641!2d-99.16962919999999!4m5!1s0x85d1ff4efbd21347%3A0x2f3a8ca9ff30986c!2sEstela%20de%20Luz!3m2!1d19.4229704!2d-99.1756764!4m5!1s0x85d1ff50256ff339%3A0x4cc666f906981ad2!2sAltar%20a%20la%20Patria!3m2!1d19.4214533!2d-99.1794151!4m5!1s0x85d1fecd47ed8f23%3A0xa6e0008524818b32!2sChapultepec%20Castle!3m2!1d19.4204397!2d-99.181935!4m5!1s0x85d1ff541cfada4d%3A0x7f4c3acc44cf2b7!2sTlaloc!3m2!1d19.4251167!2d-99.185148!4m5!1s0x85d1ff8385725c39%3A0x28058c50190cf5be!2sDiana%20the%20Huntress%20Fountain!3m2!1d19.4251872!2d-99.1716246!4m5!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sThe%20Angel%20of%20Independence!3m2!1d19.427024499999998!2d-99.16766469999999!4m5!1s0x86bb88624f9da3ad%3A0x14ac4d62ed85ec1f!2sSenate%20of%20the%20Republic!3m2!1d19.432513!2d-99.1576819!4m5!1s0x85d1f8d24522071f%3A0x20fdc6dd3dcc0c20!2sMonumento%20a%20la%20Revoluci%C3%B3n%2C%20Plaza%20de%20la%20Rep%C3%BAblica%2C%20Colonia%20Tabacalera%2C%20Cuauht%C3%A9moc%2C%20CDMX!3m2!1d19.4362086!2d-99.1546298!5e0!3m2!1sen!2smx!4v1689801273621!5m2!1sen!2smx" width="500" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map1"></iframe>
-      <ul id="part2">
-        <lh class="azul">Second Part:</lh>
-        <li class="verde">Monumento a los 43</li>
-        <li class="verde">Hemiciclo a Juarez</li>
-        <li class="verde">Palacio de Bellas Artes</li>
-        <li class="verde">Casa de los Azulejos</li>
-        <li class="verde">Palacio Postal</li>
-        <li class="verde">Museo Nacional del Arte</li>
-        <li class="verde">Camara de Diputados</li>
-        <li class="verde">Teatro de la Ciudad</li>
-        <li class="verde">Templo Mayor</li>
-        <li class="verde">Zocalo</li>
-        <li class="verde">Catedral Metropolitana</li>
-        <li class="verde">Palacio Nacional</li>
-        <li class="verde">La Cibeles</li>
-        <li class="verde">Finish Line</li>
-      </ul>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d15050.721214878922!2d-99.15939725404517!3d19.42621435962588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e1!4m5!1s0x85d1f8d24522071f%3A0x20fdc6dd3dcc0c20!2sMonument%20to%20the%20Revolution!3m2!1d19.4362086!2d-99.1546298!4m5!1s0x85d1f92af284792b%3A0xde32a0a0c4a5f966!2sHemiciclo%20a%20Juarez!3m2!1d19.43504!2d-99.1440806!4m5!1s0x85d1fed4d77c2bd9%3A0x65401fd3d24f8470!2sBarrio%20Chino%2C%20Centro%2C%20Mexico%20City%2C%20CDMX!3m2!1d19.4320229!2d-99.142675!4m5!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2sPalacio%20de%20Bellas%20Artes!3m2!1d19.4352!2d-99.1412!4m5!1s0x85d1f92b5f1a452f%3A0x8b1879ee6f42c37!2sThe%20House%20of%20Tiles!3m2!1d19.4343286!2d-99.140163!4m5!1s0x85d1f92b7c6b4877%3A0x4b7dfa3e33326fa7!2sPalacio%20Postal!3m2!1d19.435558999999998!2d-99.1402372!4m5!1s0x85d1f9805cbc55cf%3A0x704914725eddc40a!2sC%C3%A1mara%20de%20diputados%20cdmx!3m2!1d19.436663499999998!2d-99.13775509999999!4m5!1s0x85d1f92d7281d1dd%3A0x8c90beca651436b0!2sTemplo%20Mayor%20Museum!3m2!1d19.434603799999998!2d-99.13188099999999!4m5!1s0x85d1fecd4864aaff%3A0x4cff0c5cb291360c!2zWsOzY2Fsbw!3m2!1d19.4326018!2d-99.1332049!4m5!1s0x85d1ff474fc95f2b%3A0x1e2c996989c34185!2sAvenida%20M%C3%A9xico%208%2C%20Hip%C3%B3dromo%2C%20Mexico%20City%2C%20CDMX!3m2!1d19.4145008!2d-99.1685035!5e0!3m2!1sen!2smx!4v1689801576131!5m2!1sen!2smx" width="500" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map2"></iframe>
+    <div id="transport">
+    <ul>
+      <lh class="verde"><i class="bi-bicycle"></i>Transportation:</lh>
+        <li class="amarillo biggest">Bicycle</li>
+    </ul>
     </div>
-    <div id="includediv">
-      <center>
-        <p>Included</p>
-      </center>
+    <div id="equip">
+    <ul>
+      <lh class="verde"><i class="bi-stoplights"></i>Equipment:</lh>
+        <li class="amarillo biggest">Helmet</li>
+        <li class="amarillo biggest">Reflecting Vest</li>
+        <li class="amarillo biggest">Night Lights</li>
+    </ul>
     </div>
-    <div id="findiv">
-      <center>
-        <p>Finish</p>
-      </center>
-    </div>
+  </div>
+  <div id="findiv">
+    <center>
+      <p>Finish</p>
+    </center>
+  </div>
 </main>
 {% endblock %}
