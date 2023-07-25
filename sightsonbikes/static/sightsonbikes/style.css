@@ -37,9 +37,6 @@
 *{
     font-family: 'MyriadWebPro-Bold';
 }
-.relative{
-    position: relative;
-}
 .top-header{
     background-image: url("/static/sightsonbikes/pictures/header.jpg");
     width: 100%;
@@ -276,33 +273,36 @@ h1{
     position: absolute;
     top: 47%;
     left: 77%;
+    border: #84bd00 5px solid;
 }
 #pic40{
     position: absolute;
     top: 70%;
-    left: 77%;    
+    left: 77%;
+    border: #a51890 5px solid;    
 }
 #meetpic{
     position: absolute;
     top: 47%;
-    left: 41%;
+    left: 40.6%;
+    border: #00A3AD 5px solid;
 }
 #pic7:hover{
     scale: 2;
-    top: 47%;
-    left: 40.8%;
+    top: 45%;
+    left: 46%;
     z-index: 1000; 
 }
 #pic40:hover{
     scale: 2;
-    top: 60%;
-    left: 40.8%;  
+    top: 45%;
+    left: 46%;  
     z-index: 1000;   
 }
 #meetpic:hover{
     scale: 2;
     top: 30%;
-    left: 40%; 
+    left: 35%; 
     z-index: 1000; 
 }
 .pin{
@@ -322,14 +322,15 @@ h1{
 }
 #texthost{
     position: absolute;
-    top: 44%;
+    top: 43%;
     left: 5%;
     width: 19%;
     text-align: justify;
+    border: #D22630 5px solid; 
 }
 #texthost:hover{
     position: absolute;
-    top: 44%;
+    top: 41%;
     left: 5%;
     width: 19%;
     text-align: justify;
@@ -339,44 +340,48 @@ h1{
     position: absolute;
     top: 45%;
     left: 27%;
+    border: #a51890 5px solid;
 }
 #pichost:hover{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 27%;
     scale: 2;
-    z-index: 1;
+    z-index: 10000;
 }
 #pichost2{
     position: absolute;
     top: 45%;
     left: 43%;
+    border: #00A3AD 5px solid;
 }
 #pichost2:hover{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 44%;
     scale: 2;
-    z-index: 1;
+    z-index: 10000;
 }
 #pichost3{
     position: absolute;
     top: 45%;
     left: 63%;
     width: 16%;
+    border: #84bd00 5px solid;
 }
 #pichost3:hover{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 56.4%;
     width: 16%;
     scale: 2;
-    z-index: 1;
+    z-index: 10000;
 }
 #lenguage{
     position: absolute;
     top: 60%;
     left: 80%;
+    border: #f2a900 5px solid;
 }
 
 #routediv{
@@ -392,24 +397,27 @@ h1{
 #part1{
     position: absolute;
     text-align: left;
-    top: 40%;
+    top: 39.5%;
     left: 0%;
+    border: #84bd00 5px solid;
 }
 #map1{
     position: absolute;
-    top: 40%;
-    left: 16%;
+    top: 39.5%;
+    left: 16.2%;
 }
 #part2{
     position: absolute;
     text-align: left;
-    top: 40%;
-    left: 50%;
+    top: 39.5%;
+    left: 51%;
+    border: #00A3AD 5px solid;
 }
 #map2{
     position: absolute;
-    top: 40%;
-    left: 65%;
+    top: 39.5%;
+    left: 65.4%;
+    border: #00A3AD 5px solid;
 }
 #expectationdiv{
     text-align: left;
@@ -427,7 +435,7 @@ h1{
     left: 38%;
 }
 .biggest{
-    font-size: 17px;
+    font-size: 18px;
 }
 #do{
     position: absolute;
@@ -449,6 +457,8 @@ h1{
     color: #02e6fb;
 }
 #food:hover{
+    background-image: url("");
+    border: none;
     .titulo{
     display: none;
  }
@@ -478,6 +488,8 @@ h1{
     color: #5dfb02;
 }
 #transport:hover{
+    background-image: url("");
+    border: none;
     .titulo{
     display: none;
  }
@@ -489,7 +501,6 @@ h1{
     display: block;
 }
 .contenido{
-    font-size: 21px;
     display: none;
 }
 #findiv{
@@ -518,6 +529,7 @@ h1{
     position: absolute;
     top: 37%;
     left: 41%;
+    border: #00A3AD 5px solid;
 }
 #cs50x:hover{
     position: absolute;
@@ -530,6 +542,7 @@ h1{
     position: absolute;
     top: 37%;
     left: 66%;
+    border: #84bd00 5px solid;
 }
 #cs50x2:hover{
     position: absolute;
