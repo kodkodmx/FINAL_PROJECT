@@ -275,17 +275,17 @@ h1{
 #pic7{
     position: absolute;
     top: 47%;
-    left: 40.8%;
+    left: 77%;
 }
 #pic40{
     position: absolute;
     top: 70%;
-    left: 40.8%;    
+    left: 77%;    
 }
 #meetpic{
     position: absolute;
     top: 47%;
-    left: 64%;
+    left: 41%;
 }
 #pic7:hover{
     scale: 2;
@@ -389,9 +389,6 @@ h1{
     top: 35%;
     left: 26%;
 }	
-lh{
-    font-size: 22px;
-}
 #part1{
     position: absolute;
     text-align: left;
@@ -419,44 +416,81 @@ lh{
     display: none;
     height: 439px;
 }
+#whats{
+    position: absolute;
+    top: 63%;
+    left: 0%;
+}
 #doing{
     text-align: center;
     top: 35%;
     left: 38%;
 }
 .biggest{
-    font-size: 20px;
-    text-align: justify;
+    font-size: 17px;
 }
 #do{
     position: absolute;
-    top: 40%;
-    left: 0%;
-}
-#included{
-    position: absolute;
-    top: 70%;
+    top: 36%;
     left: 0%;
 }
 #food{
+    background-image: url("/static/sightsonbikes/pictures/food2.jpg");
+    text-align: center;
+    filter:drop-shadow(0px 0px 500px #000000);
     position: absolute;
-    left: 105%;
-    top: -10%;
+    padding-top: 1%;
+    top: 65%;
+    left: 16%;
+    height: 200px;
+    width: 398px;
+    border: #02e6fb 7px solid;
+    background-size: contain;
+    color: #02e6fb;
+}
+#food:hover{
+    .titulo{
+    display: none;
+ }
+.contenido{
+    display: block;
+ }
+}
+.titulo{
+    display: block;
+}
+.contenido{
+    display: none;
 }
 #transport{
+    background-image: url("/static/sightsonbikes/pictures/equipment.jpg");
+    text-align: center;
+    filter:drop-shadow(0px 0px 500px #000000);
     position: absolute;
-    top: 76%;
-    left: 43%;
+    padding-top: 1%;
+    top: 65%;
+    right: 16%;
+    height: 201px;
+    width: 400px;
+    border: #5dfb02 7px solid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #5dfb02;
 }
-#helmets{
-    position: absolute;
-    left: 160%;
-    top: -75%;
+#transport:hover{
+    .titulo{
+    display: none;
+ }
+.contenido{
+    display: block;
+ }
 }
-#equip{
-    position: absolute;
-    top: 76%;
-    left: 86%;
+.titulo{
+    display: block;
+}
+.contenido{
+    font-size: 21px;
+    display: none;
 }
 #findiv{
     display: none;
