@@ -28,8 +28,8 @@ def full(request):
     });
 
 def test(request):
-    return render(request, "sightsonbikes/test.html");
-
-
+    return render(request, "sightsonbikes/test.html", {
+        'pictures': pictures
+    });
 
 

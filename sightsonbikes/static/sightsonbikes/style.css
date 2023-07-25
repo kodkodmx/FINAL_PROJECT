@@ -59,11 +59,11 @@
 #twenty{
     margin-top: 2.9%;
 }
-#body {
+.body {
     background-color: #D60078;
 }
 
-#main {
+.main {
     padding: 20px;
     background-color: #D60078;
 }
@@ -93,9 +93,9 @@ p {
     line-height: 1.4;
 }
 footer {
+    position: relative;
     background-color: #D60078;
     color: white;
-    padding: 10px;
     text-align: center;
 }
 .container {
@@ -167,7 +167,7 @@ h1{
 #route{
     margin-left: 46%;
 }
-#include{
+#expectation{
     margin-left: 69%;
 }
 #fin{
@@ -260,10 +260,6 @@ h1{
 #bikelane{
 
 }
-footer{
-    position: relative;
-    height: 37px;
-}
 /* gallery.html */
 .carousel-inner .carousel-item img {
 
@@ -274,17 +270,40 @@ footer{
 #meetdiv{
     display: block;
     text-align: center;
-    height: 400px;
+    height: 439px;
 }
 #pic7{
     position: absolute;
-    top: 55%;
-    left: 0%;
+    top: 47%;
+    left: 40.8%;
 }
 #pic40{
     position: absolute;
-    top: 55%;
-    right: 0%;    
+    top: 70%;
+    left: 40.8%;    
+}
+#meetpic{
+    position: absolute;
+    top: 47%;
+    left: 64%;
+}
+#pic7:hover{
+    scale: 2;
+    top: 47%;
+    left: 40.8%;
+    z-index: 1000; 
+}
+#pic40:hover{
+    scale: 2;
+    top: 60%;
+    left: 40.8%;  
+    z-index: 1000;   
+}
+#meetpic:hover{
+    scale: 2;
+    top: 30%;
+    left: 40%; 
+    z-index: 1000; 
 }
 .pin{
     position: absolute;
@@ -293,13 +312,13 @@ footer{
 }
 #meetmap{
     position: absolute;
-    top: 50%;
-    left: 31.2%;
+    top: 47%;
+    left: 1%;
 }
 #hostdiv{
     display: none;
     text-align: center;
-    height: 400px;
+    height: 439px;
 }
 #texthost{
     position: absolute;
@@ -363,7 +382,7 @@ footer{
 #routediv{
     text-align: center;
     display: none;
-    height: 400px;
+    height: 439px;
 }
 #divided{
     position: absolute;
@@ -395,10 +414,10 @@ lh{
     top: 40%;
     left: 65%;
 }
-#includediv{
+#expectationdiv{
     text-align: left;
     display: none;
-    height: 400px;
+    height: 439px;
 }
 #doing{
     text-align: center;
@@ -419,10 +438,20 @@ lh{
     top: 70%;
     left: 0%;
 }
+#food{
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
 #transport{
     position: absolute;
     top: 76%;
     left: 43%;
+}
+#helmets{
+    position: absolute;
+    left: 160%;
+    top: -75%;
 }
 #equip{
     position: absolute;
@@ -431,6 +460,7 @@ lh{
 }
 #findiv{
     display: none;
+    height: 439px;
 }
 #gallery{
     height: 526px;
@@ -523,4 +553,4 @@ lh{
     font-size: 70px;
 }
 
-    
+<!-- /* test.html */ -->
