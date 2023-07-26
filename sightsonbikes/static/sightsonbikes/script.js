@@ -199,6 +199,13 @@ else if (window.location.pathname == '/home') {
       return false;
     };
   });
+  // finishline
+  function togallery() {
+    window.location.href = 'gallery';
+  }
+  function tobook() {
+    window.location.href = 'book';
+  }
 }
 // gallery & full
 else if (window.location.pathname == '/gallery' || window.location.pathname == '/full') {
@@ -217,6 +224,9 @@ else if (window.location.pathname == '/gallery' || window.location.pathname == '
   }
   function normal() {
     window.location.href = 'gallery';
+  }
+  function tobook() {
+    window.location.href = 'book';
   }
 }
 // about

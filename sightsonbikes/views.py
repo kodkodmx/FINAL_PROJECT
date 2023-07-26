@@ -26,6 +26,8 @@ def full(request):
     return render(request, "sightsonbikes/full.html", {
         'pictures': pictures
     });
+def book(request):
+    return render(request, "sightsonbikes/book.html");
 
 def test(request):
     return render(request, "sightsonbikes/test.html", {

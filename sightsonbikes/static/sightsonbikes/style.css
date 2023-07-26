@@ -507,6 +507,22 @@ h1{
     display: none;
     height: 439px;
 }
+#tobook{
+    position: absolute;
+    top: 89%;
+    left: 45.6%;
+    background-color: #00A3AD;
+    color: #f2a900;
+    font-size: 14px;
+}
+#togallery{
+    position: absolute;
+    top: 37%;
+    left: 90%;
+    background-color: #00A3AD;
+    color: #f2a900;
+    font-size: 14px;
+}
 #gallery{
     height: 526px;
 }
