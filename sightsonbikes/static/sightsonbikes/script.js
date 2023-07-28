@@ -255,8 +255,8 @@ else if (window.location.pathname == '/reviews') {
     }
   };
 }
-// about
-else if (window.location.pathname == '/about') {
+// book
+else if (window.location.pathname == '/book') {
   let preCol = null;
   function myFunction(x) { // hamburger menu
     x.classList.toggle("change");
@@ -268,8 +268,6 @@ else if (window.location.pathname == '/about') {
     }
   };
 }
-
-
 //test
 else if (window.location.pathname == '/test') {
   let preCol = null;

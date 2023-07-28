@@ -59,11 +59,6 @@
 .body {
     background-color: #D60078;
 }
-
-.main {
-    padding: 20px;
-    background-color: #D60078;
-}
 .section {
     text-align: center;
     background-color: #D60078;
@@ -131,7 +126,7 @@ footer {
 .topnav a {
     color: #D60078;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     display: block;
 }
 /* Add a grey background color on mouse-over */
@@ -267,7 +262,7 @@ h1{
 #meetdiv{
     display: block;
     text-align: center;
-    height: 439px;
+    height: 433px;
 }
 #pic7{
     position: absolute;
@@ -318,7 +313,7 @@ h1{
 #hostdiv{
     display: none;
     text-align: center;
-    height: 439px;
+    height: 433px;
 }
 #texthost{
     position: absolute;
@@ -387,16 +382,17 @@ h1{
 #routediv{
     text-align: center;
     display: none;
-    height: 439px;
+    height: 433px;
 }
 #divided{
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 26%;
 }	
 #part1{
     position: absolute;
     text-align: left;
+    line-height: 1.55;
     top: 39.5%;
     left: 0%;
     border: #84bd00 5px solid;
@@ -409,6 +405,7 @@ h1{
 #part2{
     position: absolute;
     text-align: left;
+    line-height: 1.55;
     top: 39.5%;
     left: 51%;
     border: #00A3AD 5px solid;
@@ -422,7 +419,7 @@ h1{
 #expectationdiv{
     text-align: left;
     display: none;
-    height: 439px;
+    height: 433px;
 }
 #whats{
     position: absolute;
@@ -452,9 +449,9 @@ h1{
     left: 16%;
     height: 200px;
     width: 398px;
-    border: #02e6fb 7px solid;
+    border: #00A3AD 7px solid;
     background-size: contain;
-    color: #02e6fb;
+    color: #00A3AD;
 }
 #food:hover{
     background-image: url("");
@@ -482,10 +479,10 @@ h1{
     right: 16%;
     height: 201px;
     width: 400px;
-    border: #5dfb02 7px solid;
+    border: #84bd00 7px solid;
     background-size: contain;
     background-repeat: no-repeat;
-    color: #5dfb02;
+    color: #84bd00;
 }
 #transport:hover{
     background-image: url("");
@@ -504,8 +501,9 @@ h1{
     display: none;
 }
 #findiv{
+    text-align: justify;
     display: none;
-    height: 439px;
+    height: 433px;
 }
 #tobook{
     position: absolute;
@@ -515,16 +513,28 @@ h1{
     color: #f2a900;
     font-size: 14px;
 }
+#booknow{
+    position: absolute;
+    top: 21%;
+    left: 38%;
+}
 #togallery{
     position: absolute;
-    top: 37%;
-    left: 90%;
-    background-color: #00A3AD;
-    color: #f2a900;
-    font-size: 14px;
+    top: 33.5%;
+    left: 44%;
+    height: 260px;
+    background-image: url("/static/sightsonbikes/pictures/5.jpg");
+    background-size: cover;
+    color: #84bd00;
+    font-size: 18px;
 }
 #gallery{
     height: 526px;
+}
+#galleryT{
+    position: absolute;
+    top: 21%;
+    left: 35%;
 }
 #fullscreen{
     position: absolute;
@@ -537,6 +547,8 @@ h1{
     color: #f2a900;
     font-size: 14px;
 }
+/* about.html */
+
 #about{
     color: #84bd00;
     font-size: 18px;
@@ -578,7 +590,7 @@ h1{
     font-family: 'Alfa Slab One', cursive;
     position: relative;
     display: inline-block;
-    color:#84bd00;
+    color: #00A3AD;
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
@@ -615,5 +627,32 @@ h1{
     left: 80%;
     font-size: 70px;
 }
+/*book.html*/
+#book{
+    height: 519px;
+    background-color: #D60078;
+}
+#morning{
+    position: absolute;
+    left: .3%;
+}
+#evening{
+    position: absolute;
+    right: .3%;
+}
+#private{
+    position: absolute;
+    top: 62.2%;
+    left: 25%;
+}
+.card-body{
+    color:#84bd00;
+    background-color:#a51890
+}
+.card-title{
+    color:#f2a900;
+}
 
-<!-- /* test.html */ -->
+
+
+/* test.html */

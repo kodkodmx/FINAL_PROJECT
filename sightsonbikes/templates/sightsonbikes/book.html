@@ -1,0 +1,39 @@
+{% extends "sightsonbikes/layout.html" %}
+{% block title %}
+    Gallery
+{% endblock %}
+{% block body %}
+<main id="book">
+    <br>
+    <center>
+        <h2 class="azul">Choose the most Apropiate Tour for you</h2>
+    </center>
+    <div class="col-sm-6" id="morning">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Morning Tour</h5>
+            <p class="card-text">The Morning Tour is a 4-hour tour that starts at 9:00 and ends at 13:00. It includes Breakfast and a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            <a href="morning" class="btn btn-primary" id="button">Book Now</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-6" id="evening">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Evening Tour</h5>
+            <p class="card-text">The Evening Tour is a 4-hour tour that starts at 18:00 and ends at 22:00. It includes Dinner and a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            <a href="evening" class="btn btn-primary"id="button">Book Now</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-6" id="private">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Private Tour</h5>
+            <p class="card-text">The Private Tour is a maximum of 4 hours tour that Start at the most convenient time for you according to your schedule. It includes a meal. The route can be adapted to your needs and may include a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            <a href="private" class="btn btn-primary" id="button">Book Now</a>
+        </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
