@@ -267,7 +267,19 @@ else if (window.location.pathname == '/book') {
       x.style.display = "block";
     }
   };
-}
+  function isprivate(x) {
+    if (x.value == 'Private Tour') {
+      document.getElementById('privatetime').style.display = 'block';
+      document.getElementById('price').innerHTML = '$ 350 USD.';
+    } else {
+      document.getElementById('privatetime').style.display = 'none';
+      document.getElementById('price').innerHTML = '$ ' + 65*document.getElementById('pax').value + ' USD.';
+    }};
+  function price(x) {
+    if (document.getElementById('price').innerHTML != '$ 350 USD.') {
+      document.getElementById('price').innerHTML = '$ ' + 65*x.value + ' USD.';
+    }};
+  }
 //test
 else if (window.location.pathname == '/test') {
   let preCol = null;

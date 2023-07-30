@@ -126,7 +126,7 @@ footer {
 .topnav a {
     color: #D60078;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14.5px;
     display: block;
 }
 /* Add a grey background color on mouse-over */
@@ -520,12 +520,12 @@ h1{
 }
 #togallery{
     position: absolute;
-    top: 33.5%;
-    left: 44%;
-    height: 260px;
-    background-image: url("/static/sightsonbikes/pictures/5.jpg");
+    top: 69%;
+    right: 10%;
+    height: 80px;
+    background-image: url("/static/sightsonbikes/pictures/23.jpg");
     background-size: cover;
-    color: #84bd00;
+    color: #a51890;
     font-size: 18px;
 }
 #gallery{
@@ -621,7 +621,7 @@ h1{
     left: 70%;
     font-size: 70px;
 }
-#email{
+#email1{
     position: absolute;
     top: 80%;
     left: 80%;
@@ -638,19 +638,53 @@ h1{
 }
 #evening{
     position: absolute;
-    right: .3%;
+    left: 33.3%;
 }
 #private{
     position: absolute;
-    top: 62.2%;
-    left: 25%;
+    right: .3%;
+    .card-title{
+        margin-top: -15px;
+    }
 }
 .card-body{
     color:#84bd00;
-    background-color:#a51890
+    background-color:#a51890;
+    height: 190px;
 }
 .card-title{
     color:#f2a900;
+}
+#prices{
+    position: absolute;
+    top: 71%;
+    left: 37%;
+}
+#requirements{
+    position: absolute;
+    top: 67%;
+    left: 1%;
+}
+#cancellation{
+    position: absolute;
+    top: 82%;
+    right: 1%;
+}
+#buttons{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.book{
+    position: absolute;
+    top: 82%;
+    left: 46%;
+}
+#form{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    color: #84bd00;
 }
 
 

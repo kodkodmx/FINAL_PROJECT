@@ -33,5 +33,5 @@ def test(request):
     return render(request, "sightsonbikes/test.html", {
         'pictures': pictures
     });
-
+    
 

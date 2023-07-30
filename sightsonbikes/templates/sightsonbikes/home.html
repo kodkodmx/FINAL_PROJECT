@@ -107,24 +107,60 @@
         </div>
     </div>
     <div id="findiv">
-      <h2 class="azul">Day and Night Tour Prices:</h2>
-      <h4 class="verde">Price per person: $65 usd</h4>
-      <h4 class="amarillo">Private Tour (up to 5 people): $300 usd</h4>
-      <h3 class="azul">Guest requirements:</h3>
-      <ul>
-        <li class="verde">Guests ages 12 and up can attend, up to 5 guests total.</li>
-        <li class="verde">Health and safety guidelines apply.</li>
-        <li class="verde">The activity level for this experience is moderate.</li>
-        <li class="verde">The skill level for this experience is intermediate.</li>
-        <li class="verde">To know how to ride a bicycle in the city and be able to do it for 4 hours. (We ride in a relax and slow pace and most of the tour is on bike lanes)</li>
-      </ul>
-      <h3 class="azul">Cancellation policy:</h3>
-      <ul>
-        <li class="verde">All bookings are final and incur 100% cancellation penalties.</li>
-        <li class="verde">However 24 hrs before the tour begins it is posible to reschedule the tour for another day.</li>
-      </ul>
-      <button type="button" class="btn btn-primary" id="togallery" onclick="togallery()">Photo gallery</button>
-      <button type="button" class="btn btn-primary" id="tobook" onclick="tobook()">Book Now</button>
+      <div id="choose" style="display: block;">
+        <center>
+            <h2 class="azul">Choose the most Apropiate Tour for you</h2>
+        </center>
+        <div class="col-sm-4" id="morning">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Morning Tour</h5>
+                <p class="card-text">The Morning Tour is a 4-hour tour that starts at 9:00 and ends at 13:00. It includes Breakfast and a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4" id="evening">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Evening Tour</h5>
+                <p class="card-text">The Evening Tour is a 4-hour tour that starts at 18:00 and ends at 22:00. It includes Dinner and a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4" id="private">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Private Tour</h5>
+                <p class="card-text">The Private Tour is a maximum of 4 hours tour that Start at the most convenient time for you according to your schedule. It includes a meal. The route can be adapted to your needs and may include a visit to the Condesa Neighborhood, the Chapultepec Park, Reforma Avenue, the Revolution Monument, the Alameda Central, the Palace of Fine Arts, the Latin American Tower, the Historical Center, and the Zocalo.</p>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div id="prices">
+        <h2 class="azul">Day and Night Tour Prices:</h2>
+        <h4 class="verde">Price per person: $65 usd</h4>
+        <h4 class="amarillo">Private Tour (up to 5 people): $350 usd</h4>
+      </div>
+      <div id="requirements">
+        <h3 class="azul">Guest requirements:</h3>
+        <ul>
+          <li class="verde">Guests ages 12 and up can attend, up to 5 guests total.</li>
+          <li class="verde">Health and safety guidelines apply.</li>
+          <li class="verde">The activity level for this experience is moderate.</li>
+          <li class="verde">The skill level for this experience is intermediate.</li>
+          <li class="verde">To know how to ride a bicycle in the city and be able to do it for 4 hours.</li>
+          <p class="verde" >(We ride in a relax and slow pace and most of the tour is on bike lanes)</p>
+        </ul>
+      </div>
+      <div id="cancellation">
+        <h3 class="azul">Cancellation policy:</h3>
+        <ul>
+          <li class="verde">All bookings are final and incur 100% cancellation penalties.</li>
+          <li class="verde">Rescheduling may be possible 24 hours before the tour.</li>
+        </ul>
+      </div>
+        <button type="button" class="btn btn-primary" id="togallery" onclick="togallery()">Photo gallery</button>
+        <button type="button" class="btn btn-primary" id="tobook" onclick="tobook()">Book Now</button>
     </div>
   </main>
 {% endblock %}
