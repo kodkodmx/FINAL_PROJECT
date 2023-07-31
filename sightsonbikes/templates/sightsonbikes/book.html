@@ -13,7 +13,7 @@
             <table>
                 <tr>
                     <td>
-                        <label for="name">Name:</label>
+                        <label for="name">Name :</label>
                     </td>
                     <td>
                         <input type="text" name="name" id="name" class="form-control" required>
@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="email">Email:</label>
+                        <label for="email">Email :</label>
                     </td>
                     <td>
                         <input type="email" name="email" id="email" class="form-control" required>
@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="phone">Phone:</label>
+                        <label for="phone">Phone :</label>
                     </td>
                     <td>
                         <input type="tel" name="phone" id="phone" class="form-control" required>
@@ -37,11 +37,11 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="tour">Tour:</label>
+                        <label for="tour">Tour :</label>
                     </td>
                     <td>
                         <select name="tour" id="tour" class="form-control" onchange="isprivate(this)" required>
-                            <option value="Morning Tour">Morning Tour</option>
+                            <option value="Morning Tour" >Morning Tour</option>
                             <option value="Evening Tour">Evening Tour</option>
                             <option value="Private Tour">Private Tour</option>
                         </select>
@@ -49,7 +49,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="date">Date:</label>
+                        <label for="date">Date :</label>
                     </td>
                     <td>
                         <input type="date" name="date" id="date" class="form-control" required>
@@ -63,19 +63,20 @@
                         <input type="number" name="pax" id="pax" class="form-control" max="5" min="1" onchange="price(this)" required>
                     </td>
                 </tr>
-                </table>
-                <table id="privatetime" style="display: none;">
+            </table>
+            <table id="privatetime" style="display: none;">
                 <tr>
                     <td>
-                        <label for="time"">Private Tour Requested Start Time:</label>
+                        <label for="time"">Suggested Start Time :</label>
                     </td>
                     <td>
                         <input type="time" name="time" id="time" class="form-control" required>
                     </td>
                 </tr>
             </table>
+            <br>
             <center>
-            <p>Your Total Price is:</p>
+            <p class="azul">Your Total Price is:</p>
             <h2 id="price" class="amarillo">$ 0 USD.</h2>
             </center>
             <center>

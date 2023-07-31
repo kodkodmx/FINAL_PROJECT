@@ -527,6 +527,7 @@ h1{
     background-size: cover;
     color: #a51890;
     font-size: 18px;
+    border: #00A3AD 1px solid;
 }
 #gallery{
     height: 526px;
@@ -685,6 +686,9 @@ h1{
     top: 25%;
     left: 33%;
     color: #84bd00;
+}
+table td {
+    width: 190px;
 }
 
 
