@@ -453,28 +453,28 @@ h1{
     background-size: contain;
     color: #00A3AD;
 }
-#food:hover{
-    background-image: url("");
-    border: none;
-    .titulo{
-    display: none;
- }
-.contenido{
-    display: block;
- }
-}
 .titulo{
     display: block;
 }
 .contenido{
     display: none;
 }
+#food:hover{
+    background-image: url("");
+    border: none;
+    .titulo{
+    display: none;
+ }
+    .contenido{
+    display: block;
+ }
+}
 #transport{
     background-image: url("/static/sightsonbikes/pictures/equipment.jpg");
     text-align: center;
     filter:drop-shadow(0px 0px 500px #000000);
     position: absolute;
-    padding-top: 1%;
+    padding-top: 0%;
     top: 65%;
     right: 16%;
     height: 201px;
@@ -490,15 +490,9 @@ h1{
     .titulo{
     display: none;
  }
-.contenido{
+    .contenido{
     display: block;
  }
-}
-.titulo{
-    display: block;
-}
-.contenido{
-    display: none;
 }
 #findiv{
     text-align: justify;
@@ -689,6 +683,16 @@ h1{
 }
 table td {
     width: 190px;
+}
+#confirm{
+    margin-top: 150px;
+    text-align: center;
+    height: 350px;
+}
+#error{
+    margin-top: 150px;
+    text-align: center;
+    height: 350px;
 }
 
 

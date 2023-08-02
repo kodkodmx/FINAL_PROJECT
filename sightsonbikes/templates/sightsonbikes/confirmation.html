@@ -1,11 +1,13 @@
 {% extends "sightsonbikes/layout.html" %}
 {% block title %}
-    Your Booking is Confirmed
+    Your Booking is Confirmed.
 {% endblock %}
 {% block body %}
-
-if 
-
-<h1 class="azul">Your Booking is Confirmed</h1>
-<p>Thank you for booking with us. your confirmation number is {{ confirmation_number }}.</p>
+<main>
+    <div id="confirm">
+        <h1 class="azul">Your Booking is Confirmed.</h1>
+        <h3 class="verde">Thank you for booking my Tour. your confirmation number is:</h3>
+        <h2 class="amarillo">#{{ confirmation_number }}</h2>
+    </div>
+</main>
 {% endblock %}
