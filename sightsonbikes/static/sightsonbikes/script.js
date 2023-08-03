@@ -206,6 +206,36 @@ else if (window.location.pathname == '/home') {
   function tobook() {
     window.location.href = 'book';
   }
+  //responsive
+  function myclick(x) {
+    if (x.id == 'meet') {
+      window.location.href = 'home';
+    } else if (x.id == 'host') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'block';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('expectationdiv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (x.id == 'route') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'block';
+      document.getElementById('expectationdiv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (x.id == 'expectation') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('expectationdiv').style.display = 'block';
+      document.getElementById('findiv').style.display = 'none';
+    } else if (x.id == 'fin') {
+      document.getElementById('meetdiv').style.display = 'none';
+      document.getElementById('hostdiv').style.display = 'none';
+      document.getElementById('routediv').style.display = 'none';
+      document.getElementById('expectationdiv').style.display = 'none';
+      document.getElementById('findiv').style.display = 'block';
+    }
+  };
 }
 // gallery & full
 else if (window.location.pathname == '/gallery' || window.location.pathname == '/full') {
@@ -282,16 +312,4 @@ else if (window.location.pathname == '/book') {
     }
   };
 }
-//test
-else if (window.location.pathname == '/test') {
-  let preCol = null;
-  function myFunction(x) { // hamburger menu
-      x.classList.toggle("change");
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-  };
-}
+
