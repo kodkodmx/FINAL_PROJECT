@@ -23,11 +23,36 @@
     #bike2{
         display: none;
     }
+    #bike3{
+        display: block;
+        cursor: pointer;
+        width: 75px;
+        height: 45px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background-image: url("/static/sightsonbikes/pictures/bicicleta.png");
+        background-size: cover;
+        background-position: 0%;
+    }
     .bi-pin-map{
         display: none;
     }
     #main{
-       scale: .7;
+        position: relative;
+    }
+    #meetdiv{
+        position: relative;
+        scale: .98;
+        left: -95px;
+    }
+    #meetmap{
+        scale: .7;
+        margin-top: -125px;
+    }
+    #meetdiv h2{
+        position: relative;
+        left: 25%;
     }
     #pic40{
         display: none;
@@ -36,16 +61,36 @@
         display: none;
     }
     #meetpic{
+        scale: 0.75;
+        margin-left: -139px;
+        margin-top: 28%;
+
+    }
+    #hostdiv{
+        position: relative;
+    }
+    #texthost{
+        margin-top: -40%;
+        margin-left: .5%;
+    }
+    #lenguage{
+        margin-top: 30%;
+        margin-left: -31%;
+    }
+    #pichost{
+        scale: 0.85;
+        margin-left: -130px;
+        margin-top: 22%;
+    }
+    #pichost2{
         display: none;
     }
-    #meetdiv{
-        position: relative;
-        scale: .98;
-        left: -95px;
+    #pichost3{
+        display: none;
     }
-    #meetdiv h2{
-        position: relative;
-        left: 25%;
+    .footer{
+        margin-top: 40%;
+       
     }
 }
 
@@ -296,6 +341,9 @@ h1{
     background-size: cover;
     background-position: 0%;
 }
+#bike3 {
+display: block;
+}
 .animation {
     position: relative;
     animation: 1.5s animation ease-in-out;
@@ -354,7 +402,7 @@ h1{
 }
 .pin{
     position: absolute;
-    top: 41%;
+    top: 39%;
     left: 13%;
 }
 #meetmap{
@@ -369,50 +417,46 @@ h1{
 }
 #texthost{
     position: absolute;
-    top: 43%;
-    left: 5%;
-    width: 19%;
+    top: 49%;
+    left: 1%;
+    width: 400px;
     text-align: justify;
-    border: #D22630 5px solid; 
+    border: #84bd00 5px solid; 
 }
 #texthost:hover{
-    position: absolute;
     top: 41%;
-    left: 5%;
-    width: 19%;
-    text-align: justify;
     scale: 1.23;
 }
 #pichost{
     position: absolute;
     top: 45%;
-    left: 27%;
+    left: 29%;
     border: #a51890 5px solid;
 }
 #pichost:hover{
     position: absolute;
     top: 35%;
-    left: 27%;
+    left: 29%;
     scale: 2;
     z-index: 10000;
 }
 #pichost2{
     position: absolute;
     top: 45%;
-    left: 43%;
+    left: 45%;
     border: #00A3AD 5px solid;
 }
 #pichost2:hover{
     position: absolute;
     top: 35%;
-    left: 44%;
+    left: 46%;
     scale: 2;
     z-index: 10000;
 }
 #pichost3{
     position: absolute;
     top: 45%;
-    left: 63%;
+    left: 65%;
     width: 16%;
     border: #84bd00 5px solid;
 }
@@ -427,7 +471,7 @@ h1{
 #lenguage{
     position: absolute;
     top: 60%;
-    left: 80%;
+    left: 85%;
     border: #f2a900 5px solid;
 }
 

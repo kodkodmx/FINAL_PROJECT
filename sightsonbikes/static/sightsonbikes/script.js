@@ -207,28 +207,38 @@ else if (window.location.pathname == '/home') {
     window.location.href = 'book';
   }
   //responsive
-  function myclick(x) {
+  function comehere(x) {
+    bikeS = document.getElementById('bike3');
+    bike = document.getElementById('bike2');
     if (x.id == 'meet') {
       window.location.href = 'home';
     } else if (x.id == 'host') {
+      bikeS.style.left = '120px';
+      bike.style.left = '380px';
       document.getElementById('meetdiv').style.display = 'none';
       document.getElementById('hostdiv').style.display = 'block';
       document.getElementById('routediv').style.display = 'none';
       document.getElementById('expectationdiv').style.display = 'none';
       document.getElementById('findiv').style.display = 'none';
     } else if (x.id == 'route') {
+      bikeS.style.left = '220px';
+      bike.style.left = '740px';
       document.getElementById('meetdiv').style.display = 'none';
       document.getElementById('hostdiv').style.display = 'none';
       document.getElementById('routediv').style.display = 'block';
       document.getElementById('expectationdiv').style.display = 'none';
       document.getElementById('findiv').style.display = 'none';
     } else if (x.id == 'expectation') {
+      bikeS.style.left = '320px';
+      bike.style.left = '1100px';
       document.getElementById('meetdiv').style.display = 'none';
       document.getElementById('hostdiv').style.display = 'none';
       document.getElementById('routediv').style.display = 'none';
       document.getElementById('expectationdiv').style.display = 'block';
       document.getElementById('findiv').style.display = 'none';
     } else if (x.id == 'fin') {
+      bikeS.style.left = '380px';
+      bike.style.left = '1380px';
       document.getElementById('meetdiv').style.display = 'none';
       document.getElementById('hostdiv').style.display = 'none';
       document.getElementById('routediv').style.display = 'none';
