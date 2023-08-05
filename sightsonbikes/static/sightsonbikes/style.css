@@ -171,6 +171,7 @@
         margin-top: 25%;
         margin-right: -.7%;
     }
+    /*gallery.html*/
     #togallery{
         display: none;
     }
@@ -227,6 +228,10 @@
         width: 200%;
         position: relative;
         margin-left: -90%;
+    }
+    /*book.html*/
+    #form{
+        margin-left: -30%;
     }
 }
 
