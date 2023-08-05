@@ -585,8 +585,9 @@ display: block;
     border: #84bd00 5px solid; 
 }
 #texthost:hover{
-    top: 41%;
-    scale: 1.23;
+    top: 49%;
+    left: 1.5%;
+    scale: 1.1;
 }
 #pichost{
     position: absolute;
