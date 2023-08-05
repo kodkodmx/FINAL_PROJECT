@@ -41,9 +41,9 @@
     #main{
         position: relative;
     }
+    /*meetdiv*/
     #meetdiv{
         position: relative;
-        scale: .98;
         left: -95px;
     }
     #meetmap{
@@ -64,8 +64,12 @@
         scale: 0.75;
         margin-left: -139px;
         margin-top: 28%;
-
     }
+    #meetpic:hover{
+        display: none;
+    }
+    
+    /*hostdiv*/
     #hostdiv{
         position: relative;
     }
@@ -82,6 +86,9 @@
         margin-left: -130px;
         margin-top: 22%;
     }
+    #pichost:hover{
+        display: none;
+    }
     #pichost2{
         display: none;
     }
@@ -89,8 +96,137 @@
         display: none;
     }
     .footer{
-        margin-top: 40%;
+        margin-top: 43.5%;
        
+    }
+    /*routediv*/
+    #divided{
+        scale: 0.7;
+        margin-top: -37%;
+        margin-left: -76%;
+        width: 200%;
+    }
+    #part1{
+        scale: .9;
+        margin-top: -42%;
+        margin-left: -2%;
+    }
+    #part2{
+        scale: .9;
+        margin-top: -44%;
+        margin-left: 3%;
+    }
+    #map1{
+        scale: .4;
+        margin-top: 7.5%;
+        margin-left: -52.5%;
+    }
+    #map2{
+        scale: .4;
+        margin-top: 45.5%;
+        margin-left: -58%;
+    }
+    /*expectationsdiv*/
+    #do{
+        scale: .9;
+        margin-top: -37%;
+        margin-left: -2%;
+    }
+    #whats{
+        scale: .9;
+        margin-top: 35%;
+        margin-left: 2%;
+    }
+    #food{
+        scale: .5;
+        margin-top: 35%;
+        margin-left: -39%;
+    }
+    #transport{
+        scale: .5;
+        margin-top: 35%;
+        margin-right: -39%;
+    }
+    /* findiv */
+    #choose{
+        scale: .8;
+        width: 200%;
+        margin-left: -50.5%;
+    }
+    #morning{
+        font-size: 20px;
+        scale: .62;
+        margin-top: -5%;
+    }
+    #evening{
+        font-size: 20px;
+        scale: .62;
+        margin-top: 10%;
+        margin-left: -33%;
+    }
+    #private{
+        letter-spacing:-.1px;
+        font-size: 20px;
+        scale: .62;
+        margin-top: 25%;
+        margin-right: -.7%;
+    }
+    #togallery{
+        display: none;
+    }
+    #tobook{
+        margin-top: 45.5%;
+        margin-left: -10%;
+    }
+    #prices{
+        scale: .9;
+        margin-top: 2%;
+        margin-left: -30%;
+    }
+    #requirements{
+        width: 200%;
+        scale: .7;
+        margin-top: 19.7%;
+        margin-left: -30%;
+    }   
+    #cancellation{
+        width: 200%;
+        scale: .5;
+        margin-top: 36%;
+        margin-right: -52%;
+    }
+    #galleryT{
+        scale: .8;
+        width: 115%;
+        margin-left: -43%;
+        margin-top: -10%;
+    }
+    #gallery{
+        width: 195%;
+        margin-left: -48%;
+        scale: .5;
+        margin-top: -20%;
+    }
+    #button2{
+        display: none;
+    }
+    /*about.html*/
+    #about{
+        height: 1250px;
+    }
+    #cs50x{
+        margin-top: 140%;
+        margin-left: -36%;
+    }
+    #cs50x2{
+        scale: .8;
+        margin-top: 205%;
+        margin-left: -77%;
+    }
+    #icons{
+        width: 200%;
+        position: relative;
+        margin-left: -90%;
     }
 }
 
@@ -633,7 +769,12 @@ display: block;
     height: 100%;
     background-color: black;
 }
-#button{
+#button1{
+    background-color: #00A3AD;
+    color: #f2a900;
+    font-size: 14px;
+}
+#button2{
     background-color: #00A3AD;
     color: #f2a900;
     font-size: 14px;
