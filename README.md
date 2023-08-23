@@ -18,6 +18,8 @@ Almost all pages and views are designed in a way that eliminates the need to scr
 
 The only model I use is simple, yet it includes all the necessary data to make seamless tour reservations.
 
+Because in the mobile version, dragging is not possible, you can also click on the places where you want to drag the bicycle.
+
 I have put forth significant effort into designing this web app, with the aim of providing an exceptional user experience that closely mirrors the actual bike tour journey. And achieving this goal definitely makes it **unique and complex.**
 
 ## Description
