@@ -4,21 +4,21 @@
 
 ## Distinctiveness and Complexity
 
-I have dedicated significant effort to design this web app, aiming to provide an awesome user experience that closely resembles the actual bike tour journey.
-
 We start with an almost empty page where the user must move their bicycle to the meeting point. With this action, we also demonstrate how they can navigate through the site. This is implemented in JavaScript and was complex to achieve because I had to learn how to move an object freely on the screen by dragging it with the mouse. It reminded me of the first project we did with "scratch" in CS50W.
 
 Next, I created a bicycle lane that functions as a menu. When the user drags the bicycle on this lane, the views on the "home" page change, revealing different stages of the tour. Simultaneously, it guides the user to make a reservation. The challenge here was to ensure the bicycle stays within the lane and that the page views change without refreshing the page. This part was also accomplished using JavaScript.
 
 For the "book" page, I designed an HTML form and added some restrictions. For instance, I ensured that no more than 5 spots could be reserved. Additionally, if the user selects the private tour option, an additional field is displayed where they can request a specific start time. I thoroughly tested these features to make sure they function correctly and cannot be manipulated on the back-end in views.py using Python.
 
-The gallery offers a fullscreen view created in HTML. The images are displayed randomly each time the page is reloaded, and this was achieved on the back-end using Python.
+The gallery offers a fullscreen view created in HTML and JavaScript. The images are displayed randomly each time the page is reloaded, and this was achieved on the back-end using Python.
 
 Security measures were added in views.py to prevent new reservations if the "book" page is reloaded, or if there are any inconsistencies in the data, the user is directed to the "error" page.
 
 Almost all pages and views are designed in a way that eliminates the need to scroll down for more content, except for the reviews page. For that, I used an external app since Airbnb doesn't provide access to their API.
 
 The only model I use is simple, yet it includes all the necessary data to make seamless tour reservations.
+
+I have put forth significant effort into designing this web app, with the aim of providing an exceptional user experience that closely mirrors the actual bike tour journey. And achieving this goal definitely makes it **unique and complex.**
 
 ## Description
 
