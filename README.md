@@ -4,7 +4,7 @@
 
 ## Distinctiveness and Complexity
 
-We start with an almost empty page where the user must move their bicycle to the meeting point. With this action, we also demonstrate how they can navigate through the site. This is implemented in JavaScript and was complex to achieve because I had to learn how to move an object freely on the screen by dragging it with the mouse. It reminded me of the first project we did with "scratch" in CS50W.
+We start in the "index" with an almost empty page where the user must move their bicycle to the meeting point. With this action, we also demonstrate how they can navigate through the site. This is implemented in JavaScript and was complex to achieve because I had to learn how to move an object freely on the screen by dragging it with the mouse. It reminded me of the first project we did with "scratch" in CS50W.
 
 Next, I created a bicycle lane that functions as a menu. When the user drags the bicycle on this lane, the views on the "home" page change, revealing different stages of the tour. Simultaneously, it guides the user to make a reservation. The challenge here was to ensure the bicycle stays within the lane and that the page views change without refreshing the page. This part was also accomplished using JavaScript.
 
