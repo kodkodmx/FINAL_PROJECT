@@ -1,11 +1,11 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
     <head>
         <title>{% block title %}Fullscreen{% endblock %}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="/static/sightsonbikes/pictures/bicicleta.png">
+        <link rel="shortcut icon" href="{% static '/sightsonbikes/pictures/bicicleta.png' %}">
         <link href="{% static '/sightsonbikes/style.css' %}" rel="stylesheet">
         <script src="{% static '/sightsonbikes/script.js' %}"></script>
         <!-- Scripts de Bootstrap -->
@@ -30,11 +30,12 @@
                 {% for x in pictures %}
                 {% if forloop.first %}
                 <div class="carousel-item active" d-flex justify-content-center>
-                <img src="/static/sightsonbikes/pictures/{{ x }}.jpg" class="d-block" height="650vh">
+                
+                <img src="{% static '/sightsonbikes/pictures/' %}{{ x }}.jpg" class="d-block" height="650vh">
                 </div>
                 {% else %}
                 <div class="carousel-item">
-                <img src="/static/sightsonbikes/pictures/{{ x }}.jpg" class="d-block" height="650vh">
+                <img src="{% static '/sightsonbikes/pictures/' %}{{ x }}.jpg" class="d-block" height="650vh">
                 </div>
                 {% endif %}
                 {% endfor %}

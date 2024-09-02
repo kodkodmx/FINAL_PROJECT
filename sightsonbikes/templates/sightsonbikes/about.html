@@ -1,4 +1,5 @@
 {% extends "sightsonbikes/layout.html" %}
+{% load static %}
 {% block title %}
     About Alberto Haboba
 {% endblock %}
@@ -35,8 +36,8 @@
             <li>Passionate about Computers, Travel, Exercise and Motorcycles.</li>
             <li>Currently looking for a Remote Job in Programming.</li>            
     </ul>
-    <img src="/static/sightsonbikes/pictures/CS50x.jpg" height="290px" id="cs50x">
-    <img src="/static/sightsonbikes/pictures/CS50x2.jpg" height="290px" id="cs50x2">
+    <img src="{% static "sightsonbikes/pictures/CS50x.jpg" %}" height="290px" id="cs50x">
+    <img src="{% static "sightsonbikes/pictures/CS50x2.jpg" %}" height="290px" id="cs50x2">
     <div id="icons">
         <a href="https://wa.me/525525117423" target="_blank" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
         <a href="https://ig.me/m/albertours.mx" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a>

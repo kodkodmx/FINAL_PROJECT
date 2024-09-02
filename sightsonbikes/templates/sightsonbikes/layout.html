@@ -1,11 +1,11 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
       <title>{% block title %}{% endblock %}</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="/static/sightsonbikes/pictures/bicicleta.png">
+      <link rel="shortcut icon" href="{% static '/sightsonbikes/pictures/bicicleta.png' %}">
       <link href="{% static '/sightsonbikes/style.css' %}" rel="stylesheet">
       <script src="{% static '/sightsonbikes/script.js' %}"></script>
       <!-- Scripts de Bootstrap -->
@@ -27,7 +27,7 @@
     <header class="top-header">
       <nav>
         <div class="logo">
-          <img src="/static/sightsonbikes/pictures/mexico.png" alt="Logo" class="logo">
+          <img src="{% static '/sightsonbikes/pictures/mexico.png' %}" alt="Logo" class="logo">
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <div class="topnav container" onclick="myFunction(this)" id="hamburger">

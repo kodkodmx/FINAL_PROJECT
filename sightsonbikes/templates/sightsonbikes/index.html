@@ -1,4 +1,5 @@
 <!doctype html>
+{% load static %}
 <html>
 
 <head>
@@ -13,8 +14,8 @@
 <body style="background-color: white;" id="index">
 
   <h2 class="animation">Drag the bike to or click on the meeting point...</h2>
-  <img src="/static/sightsonbikes/pictures/start.png" id="flag" class="droppable" onclick="location.href='home'">
-  <img src="/static/sightsonbikes/pictures/bike.png" id="bike">
+  <img src="{% static '/sightsonbikes/pictures/start.png' %}" id="flag" class="droppable" onclick="location.href='home'">
+  <img src="{% static '/sightsonbikes/pictures/bike.png' %}" id="bike">
   <br>
   <center>
     <a href="home">Skip for mobiles</a>
