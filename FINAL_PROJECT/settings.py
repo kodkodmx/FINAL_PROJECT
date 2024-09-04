@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://alberto.up.railway.app',
+    'localhost',
+    'alberto.up.railway.app',
 ]
 
 
