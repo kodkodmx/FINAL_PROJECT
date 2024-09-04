@@ -26,8 +26,10 @@ SECRET_KEY = 'django-insecure-b)=ge^)wzfpnstc37!#*4%&17=q&@pfyj_5qg7hdy0ukquo97e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    'alberto.up.railway.app'
 ]
+
+CSRF_TRUSTED_ORIGINS = [‘https://alberto.up.railway.app’]
 
 
 # Application definition
