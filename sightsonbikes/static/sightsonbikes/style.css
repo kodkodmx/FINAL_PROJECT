@@ -1,4 +1,4 @@
-  @media only screen and (max-width:500px) {
+@media only screen and (max-width:500px) {
     /* For mobile phones: */
     /* index.html*/
     #index{
@@ -220,7 +220,7 @@
         scale: .8;
         width: 115%;
         margin-left: -43%;
-        margin-top: -10%;
+        margin-top: -0%;
     }
     #gallery{
         width: 195%;
