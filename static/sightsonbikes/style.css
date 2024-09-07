@@ -217,7 +217,7 @@
         margin-right: -52%;
     }
     #galleryT{
-        display: none;
+        display: block;
         /*scale: .8;
         width: 115%;
         margin-left: -43%;
