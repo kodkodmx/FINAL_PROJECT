@@ -786,9 +786,10 @@ display: block;
     height: 526px;
 }
 #galleryT{
-    position: absolute;
-    top: 21%;
-    left: 35%;
+    scale: .8;
+    width: 115%;
+    margin-left: -43%;
+    margin-top: -2%;
 }
 #fullscreen{
     position: absolute;
