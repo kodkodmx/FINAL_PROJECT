@@ -216,12 +216,13 @@
         margin-top: 36%;
         margin-right: -52%;
     }
-    /*#galleryT{
-        scale: .8;
+    #galleryT{
+        display: none;
+        /*scale: .8;
         width: 115%;
         margin-left: -43%;
-        margin-top: -20%;
-    }*/
+        margin-top: -20%;*/
+    }
     #gallery{
         width: 195%;
         margin-left: -48%;
