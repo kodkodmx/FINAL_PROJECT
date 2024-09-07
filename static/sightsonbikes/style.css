@@ -217,7 +217,7 @@
         margin-right: -52%;
     }
     #galleryT{
-        display: block;
+        display: none;
         /*scale: .8;
         width: 115%;
         margin-left: -43%;
@@ -511,9 +511,7 @@ display: block;
     animation: 1.5s animation ease-in-out;
     text-align: center;
 }
-#bikelane{
 
-}
 /* gallery.html */
 .carousel-inner .carousel-item img {
 
